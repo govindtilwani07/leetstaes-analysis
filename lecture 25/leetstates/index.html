@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Progress Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>LeetCode Data Analysis</h1>
+        <div class="user-container">
+            <div class="user-input-container">
+                <input type="text" id="user-input" placeholder="Enter LeetCode username">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+
+        <!-- Progress Circles -->
+        <div class="progress">
+            <div class="circle" id="total-progress"><span>0/0</span></div>
+            <div class="circle" id="easy-progress"><span>0/0</span></div>
+            <div class="circle" id="medium-progress"><span>0/0</span></div>
+            <div class="circle" id="hard-progress"><span>0/0</span></div>
+        </div>
+
+        <!-- Labels -->
+        <p id="easy-label">Easy: 0</p>
+        <p id="medium-label">Medium: 0</p>
+        <p id="hard-label">Hard: 0</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
